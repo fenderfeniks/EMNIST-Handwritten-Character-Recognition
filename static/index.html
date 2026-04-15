@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Sketchpad</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <style>
+        #sketchpad {
+            border: 1px solid #888;
+            zoom: 100%;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+<H1>Draw image</H1>
+<div id="sketchpadapp">
+    <canvas id="sketchpad" height="28" width="28" style="width:140px;height:140px; display:block;"></canvas>
+    <button type="button" onclick="predictData()">Predict</button>
+    <button type="button" onclick="reset()">Clear</button>
+    <br>
+    <dict id="prediction"></div>
+</div>
+</body>
+</html>

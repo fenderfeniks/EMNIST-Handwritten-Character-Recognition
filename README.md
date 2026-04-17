@@ -1,5 +1,13 @@
 # Распознавание рукописных символов EMNIST
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-CNN-EE4C2C?logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-deployed-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
+![Accuracy](https://img.shields.io/badge/CNN_Accuracy-88%25+-brightgreen)
+![Classes](https://img.shields.io/badge/Classes-47-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 Практическая работа по обучению нейронных сетей для распознавания рукописных символов с использованием датасета EMNIST Balanced и деплоем через FastAPI.
 
 ## Суть задачи
